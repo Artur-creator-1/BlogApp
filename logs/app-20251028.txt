@@ -1,0 +1,192 @@
+2025-10-28 13:04:13.138 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-10-28 13:04:13.240 +03:00 [INF] Now listening on: http://localhost:5178
+2025-10-28 13:04:13.246 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-28 13:04:13.248 +03:00 [INF] Hosting environment: Development
+2025-10-28 13:04:13.249 +03:00 [INF] Content root path: D:\тестовые\энерго\BlogApp\BlogApp
+2025-10-28 13:05:03.147 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/swagger - null null
+2025-10-28 13:05:03.192 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/swagger - 301 0 null 46.7505ms
+2025-10-28 13:05:03.212 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/swagger/index.html - null null
+2025-10-28 13:05:03.325 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/swagger/index.html - 200 null text/html;charset=utf-8 112.8568ms
+2025-10-28 13:05:03.379 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/swagger/swagger-ui.css - null null
+2025-10-28 13:05:03.392 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/swagger/index.css - null null
+2025-10-28 13:05:03.393 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/swagger/swagger-ui-standalone-preset.js - null null
+2025-10-28 13:05:03.393 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/swagger/swagger-ui-bundle.js - null null
+2025-10-28 13:05:03.407 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/swagger/index.js - null null
+2025-10-28 13:05:03.420 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/swagger/index.css - 200 152 text/css 28.1623ms
+2025-10-28 13:05:03.421 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/swagger/swagger-ui.css - 200 23647 text/css 41.3902ms
+2025-10-28 13:05:03.439 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/swagger/swagger-ui-standalone-preset.js - 200 77352 text/javascript 46.1015ms
+2025-10-28 13:05:03.448 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/swagger/index.js - 200 null application/javascript;charset=utf-8 40.6793ms
+2025-10-28 13:05:03.453 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/swagger/swagger-ui-bundle.js - 200 424767 text/javascript 59.8685ms
+2025-10-28 13:05:03.803 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/swagger/v1/swagger.json - null null
+2025-10-28 13:05:03.831 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/swagger/favicon-32x32.png - null null
+2025-10-28 13:05:03.841 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/swagger/favicon-32x32.png - 200 628 image/png 9.9509ms
+2025-10-28 13:05:03.845 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.4044ms
+2025-10-28 13:05:18.805 +03:00 [INF] Application is shutting down...
+2025-10-28 14:15:01.988 +03:00 [INF] Now listening on: https://localhost:7075
+2025-10-28 14:15:02.024 +03:00 [INF] Now listening on: http://localhost:5178
+2025-10-28 14:15:02.119 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-28 14:15:02.121 +03:00 [INF] Hosting environment: Development
+2025-10-28 14:15:02.125 +03:00 [INF] Content root path: D:\тестовые\энерго\BlogApp\BlogApp
+2025-10-28 14:17:37.315 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5178/api/users/register - application/json 124
+2025-10-28 14:17:37.352 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5178/api/users/register - 307 0 null 39.5779ms
+2025-10-28 14:17:37.394 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7075/api/users/register - application/json 124
+2025-10-28 14:17:37.403 +03:00 [INF] Executing endpoint 'BlogApp.Controllers.UsersController.Register (BlogApp)'
+2025-10-28 14:17:37.436 +03:00 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(BlogApp.DTOs.CreateUserDto) on controller BlogApp.Controllers.UsersController (BlogApp).
+2025-10-28 14:17:37.816 +03:00 [INF] [UsersController] POST /api/users/register - Username: john_doe
+2025-10-28 14:17:37.820 +03:00 [INF] [UserService] Registration attempt for username: john_doe
+2025-10-28 14:17:37.863 +03:00 [INF] Getting user by username: john_doe
+2025-10-28 14:17:38.217 +03:00 [WRN] User not found: john_doe
+2025-10-28 14:17:38.531 +03:00 [INF] User created: john_doe (ID: 5)
+2025-10-28 14:17:38.533 +03:00 [INF] [UserService] User registered successfully. New User ID: 5, Username: john_doe
+2025-10-28 14:17:38.535 +03:00 [INF] [UsersController] User registered successfully - ID: 5
+2025-10-28 14:17:38.544 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'BlogApp.DTOs.ApiResponse`1[[BlogApp.DTOs.UserDto, BlogApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-28 14:17:38.590 +03:00 [INF] Executed action BlogApp.Controllers.UsersController.Register (BlogApp) in 1144.8356ms
+2025-10-28 14:17:38.592 +03:00 [INF] Executed endpoint 'BlogApp.Controllers.UsersController.Register (BlogApp)'
+2025-10-28 14:17:38.596 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7075/api/users/register - 201 null application/json; charset=utf-8 1202.0275ms
+2025-10-28 14:18:22.363 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/users - null null
+2025-10-28 14:18:22.370 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/users - 307 0 null 6.4753ms
+2025-10-28 14:18:22.374 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7075/api/users - null null
+2025-10-28 14:18:22.381 +03:00 [INF] Executing endpoint 'BlogApp.Controllers.UsersController.GetAllUsers (BlogApp)'
+2025-10-28 14:18:22.388 +03:00 [INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller BlogApp.Controllers.UsersController (BlogApp).
+2025-10-28 14:18:22.394 +03:00 [INF] [UsersController] GET /api/users
+2025-10-28 14:18:22.397 +03:00 [INF] [UserService] Fetching all users
+2025-10-28 14:18:22.408 +03:00 [INF] [UserService] Retrieved 5 users successfully
+2025-10-28 14:18:22.411 +03:00 [INF] Executing OkObjectResult, writing value of type 'BlogApp.DTOs.ApiResponse`1[[System.Collections.Generic.List`1[[BlogApp.DTOs.UserDto, BlogApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-28 14:18:22.416 +03:00 [INF] Executed action BlogApp.Controllers.UsersController.GetAllUsers (BlogApp) in 23.1533ms
+2025-10-28 14:18:22.419 +03:00 [INF] Executed endpoint 'BlogApp.Controllers.UsersController.GetAllUsers (BlogApp)'
+2025-10-28 14:18:22.423 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7075/api/users - 200 null application/json; charset=utf-8 48.3715ms
+2025-10-28 14:18:52.984 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/users/1 - null null
+2025-10-28 14:18:52.989 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/users/1 - 307 0 null 4.589ms
+2025-10-28 14:18:52.991 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7075/api/users/1 - null null
+2025-10-28 14:18:52.999 +03:00 [INF] Executing endpoint 'BlogApp.Controllers.UsersController.GetUserById (BlogApp)'
+2025-10-28 14:18:53.005 +03:00 [INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int64) on controller BlogApp.Controllers.UsersController (BlogApp).
+2025-10-28 14:18:53.013 +03:00 [INF] [UsersController] GET /api/users/1
+2025-10-28 14:18:53.015 +03:00 [INF] [UserService] Getting user by ID: 1
+2025-10-28 14:18:53.018 +03:00 [INF] [UserService] User retrieved successfully. ID: 1, Username: admin
+2025-10-28 14:18:53.020 +03:00 [INF] Executing OkObjectResult, writing value of type 'BlogApp.DTOs.ApiResponse`1[[BlogApp.DTOs.UserDto, BlogApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-28 14:18:53.022 +03:00 [INF] Executed action BlogApp.Controllers.UsersController.GetUserById (BlogApp) in 13.0625ms
+2025-10-28 14:18:53.024 +03:00 [INF] Executed endpoint 'BlogApp.Controllers.UsersController.GetUserById (BlogApp)'
+2025-10-28 14:18:53.026 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7075/api/users/1 - 200 null application/json; charset=utf-8 35.1087ms
+2025-10-28 14:19:46.512 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/users/by-username/admin - null null
+2025-10-28 14:19:46.516 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/users/by-username/admin - 307 0 null 4.3594ms
+2025-10-28 14:19:46.518 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7075/api/users/by-username/admin - null null
+2025-10-28 14:19:46.525 +03:00 [INF] Executing endpoint 'BlogApp.Controllers.UsersController.GetUserByUsername (BlogApp)'
+2025-10-28 14:19:46.530 +03:00 [INF] Route matched with {action = "GetUserByUsername", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUsername(System.String) on controller BlogApp.Controllers.UsersController (BlogApp).
+2025-10-28 14:19:46.534 +03:00 [INF] [UsersController] GET /api/users/by-username/admin
+2025-10-28 14:19:46.536 +03:00 [INF] [UserService] Getting user by username: admin
+2025-10-28 14:19:46.537 +03:00 [INF] Getting user by username: admin
+2025-10-28 14:19:46.540 +03:00 [INF] [UserService] User retrieved successfully. ID: 1, Username: admin
+2025-10-28 14:19:46.542 +03:00 [INF] Executing OkObjectResult, writing value of type 'BlogApp.DTOs.ApiResponse`1[[BlogApp.DTOs.UserDto, BlogApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-28 14:19:46.545 +03:00 [INF] Executed action BlogApp.Controllers.UsersController.GetUserByUsername (BlogApp) in 11.9576ms
+2025-10-28 14:19:46.547 +03:00 [INF] Executed endpoint 'BlogApp.Controllers.UsersController.GetUserByUsername (BlogApp)'
+2025-10-28 14:19:46.549 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7075/api/users/by-username/admin - 200 null application/json; charset=utf-8 30.5418ms
+2025-10-28 14:21:19.034 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5178/api/users/5 - application/json 60
+2025-10-28 14:21:19.038 +03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5178/api/users/5 - 307 0 null 3.8212ms
+2025-10-28 14:21:19.040 +03:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7075/api/users/5 - application/json 60
+2025-10-28 14:21:19.046 +03:00 [INF] Executing endpoint 'BlogApp.Controllers.UsersController.UpdateUser (BlogApp)'
+2025-10-28 14:21:19.052 +03:00 [INF] Route matched with {action = "UpdateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateUser(Int64, BlogApp.DTOs.UpdateUserDto) on controller BlogApp.Controllers.UsersController (BlogApp).
+2025-10-28 14:21:19.057 +03:00 [INF] [UsersController] PUT /api/users/5
+2025-10-28 14:21:19.060 +03:00 [INF] [UserService] Updating user. ID: 5
+2025-10-28 14:21:19.066 +03:00 [INF] [UserService] User updated successfully. ID: 5. Changed from: DisplayName: 'John Doe', Bio: '' to DisplayName: 'john_doe2', Bio: 'john_doe bio'
+2025-10-28 14:21:19.067 +03:00 [INF] [UsersController] User updated successfully - ID: 5
+2025-10-28 14:21:19.069 +03:00 [INF] Executing OkObjectResult, writing value of type 'BlogApp.DTOs.ApiResponse`1[[BlogApp.DTOs.UserDto, BlogApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-28 14:21:19.071 +03:00 [INF] Executed action BlogApp.Controllers.UsersController.UpdateUser (BlogApp) in 15.9954ms
+2025-10-28 14:21:19.073 +03:00 [INF] Executed endpoint 'BlogApp.Controllers.UsersController.UpdateUser (BlogApp)'
+2025-10-28 14:21:19.074 +03:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7075/api/users/5 - 200 null application/json; charset=utf-8 34.5128ms
+2025-10-28 14:22:34.183 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5178/api/users/5/change-password - application/json 63
+2025-10-28 14:22:34.187 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5178/api/users/5/change-password - 307 0 null 4.1141ms
+2025-10-28 14:22:34.189 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7075/api/users/5/change-password - application/json 63
+2025-10-28 14:22:34.197 +03:00 [INF] Executing endpoint 'BlogApp.Controllers.UsersController.ChangePassword (BlogApp)'
+2025-10-28 14:22:34.201 +03:00 [INF] Route matched with {action = "ChangePassword", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangePassword(Int64, BlogApp.Controllers.ChangePasswordRequest) on controller BlogApp.Controllers.UsersController (BlogApp).
+2025-10-28 14:22:34.206 +03:00 [INF] [UsersController] POST /api/users/5/change-password
+2025-10-28 14:22:34.208 +03:00 [INF] [UserService] Password change attempt for user ID: 5
+2025-10-28 14:22:34.210 +03:00 [WRN] [UserService] New password too short. User ID: 5
+2025-10-28 14:22:34.211 +03:00 [WRN] [UsersController] Password change failed - ID: 5
+2025-10-28 14:22:34.214 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'BlogApp.DTOs.ApiResponse`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-28 14:22:34.218 +03:00 [INF] Executed action BlogApp.Controllers.UsersController.ChangePassword (BlogApp) in 13.9591ms
+2025-10-28 14:22:34.219 +03:00 [INF] Executed endpoint 'BlogApp.Controllers.UsersController.ChangePassword (BlogApp)'
+2025-10-28 14:22:34.221 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7075/api/users/5/change-password - 400 null application/json; charset=utf-8 32.0538ms
+2025-10-28 14:22:43.564 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5178/api/users/5/change-password - application/json 66
+2025-10-28 14:22:43.569 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5178/api/users/5/change-password - 307 0 null 5.099ms
+2025-10-28 14:22:43.571 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7075/api/users/5/change-password - application/json 66
+2025-10-28 14:22:43.579 +03:00 [INF] Executing endpoint 'BlogApp.Controllers.UsersController.ChangePassword (BlogApp)'
+2025-10-28 14:22:43.580 +03:00 [INF] Route matched with {action = "ChangePassword", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangePassword(Int64, BlogApp.Controllers.ChangePasswordRequest) on controller BlogApp.Controllers.UsersController (BlogApp).
+2025-10-28 14:22:43.584 +03:00 [INF] [UsersController] POST /api/users/5/change-password
+2025-10-28 14:22:43.585 +03:00 [INF] [UserService] Password change attempt for user ID: 5
+2025-10-28 14:22:43.911 +03:00 [INF] [UserService] Password changed successfully for user ID: 5
+2025-10-28 14:22:43.913 +03:00 [INF] [UsersController] Password changed successfully - ID: 5
+2025-10-28 14:22:43.914 +03:00 [INF] Executing OkObjectResult, writing value of type 'BlogApp.DTOs.ApiResponse`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-28 14:22:43.917 +03:00 [INF] Executed action BlogApp.Controllers.UsersController.ChangePassword (BlogApp) in 333.4322ms
+2025-10-28 14:22:43.919 +03:00 [INF] Executed endpoint 'BlogApp.Controllers.UsersController.ChangePassword (BlogApp)'
+2025-10-28 14:22:43.921 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7075/api/users/5/change-password - 200 null application/json; charset=utf-8 349.5936ms
+2025-10-28 14:23:05.251 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5178/api/users/5 - null null
+2025-10-28 14:23:05.256 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5178/api/users/5 - 307 0 null 4.3933ms
+2025-10-28 14:23:05.258 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7075/api/users/5 - null null
+2025-10-28 14:23:05.265 +03:00 [INF] Executing endpoint 'BlogApp.Controllers.UsersController.DeleteUser (BlogApp)'
+2025-10-28 14:23:05.269 +03:00 [INF] Route matched with {action = "DeleteUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteUser(Int64) on controller BlogApp.Controllers.UsersController (BlogApp).
+2025-10-28 14:23:05.273 +03:00 [INF] [UsersController] DELETE /api/users/5
+2025-10-28 14:23:05.274 +03:00 [INF] [UserService] Deleting user. ID: 5
+2025-10-28 14:23:05.280 +03:00 [INF] User deactivated: ID 5
+2025-10-28 14:23:05.281 +03:00 [INF] [UserService] User deleted successfully. ID: 5, Username: john_doe
+2025-10-28 14:23:05.283 +03:00 [INF] [UsersController] User deleted successfully - ID: 5
+2025-10-28 14:23:05.284 +03:00 [INF] Executing OkObjectResult, writing value of type 'BlogApp.DTOs.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-28 14:23:05.287 +03:00 [INF] Executed action BlogApp.Controllers.UsersController.DeleteUser (BlogApp) in 15.1679ms
+2025-10-28 14:23:05.289 +03:00 [INF] Executed endpoint 'BlogApp.Controllers.UsersController.DeleteUser (BlogApp)'
+2025-10-28 14:23:05.290 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7075/api/users/5 - 200 null application/json; charset=utf-8 32.6297ms
+2025-10-28 14:23:26.374 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5178/api/users/5 - null null
+2025-10-28 14:23:26.382 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5178/api/users/5 - 307 0 null 7.9588ms
+2025-10-28 14:23:26.384 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7075/api/users/5 - null null
+2025-10-28 14:23:26.390 +03:00 [INF] Executing endpoint 'BlogApp.Controllers.UsersController.DeleteUser (BlogApp)'
+2025-10-28 14:23:26.392 +03:00 [INF] Route matched with {action = "DeleteUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteUser(Int64) on controller BlogApp.Controllers.UsersController (BlogApp).
+2025-10-28 14:23:26.396 +03:00 [INF] [UsersController] DELETE /api/users/5
+2025-10-28 14:23:26.397 +03:00 [INF] [UserService] Deleting user. ID: 5
+2025-10-28 14:23:26.401 +03:00 [INF] User deactivated: ID 5
+2025-10-28 14:23:26.402 +03:00 [INF] [UserService] User deleted successfully. ID: 5, Username: john_doe
+2025-10-28 14:23:26.404 +03:00 [INF] [UsersController] User deleted successfully - ID: 5
+2025-10-28 14:23:26.405 +03:00 [INF] Executing OkObjectResult, writing value of type 'BlogApp.DTOs.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-28 14:23:26.407 +03:00 [INF] Executed action BlogApp.Controllers.UsersController.DeleteUser (BlogApp) in 11.6846ms
+2025-10-28 14:23:26.409 +03:00 [INF] Executed endpoint 'BlogApp.Controllers.UsersController.DeleteUser (BlogApp)'
+2025-10-28 14:23:26.411 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7075/api/users/5 - 200 null application/json; charset=utf-8 26.8101ms
+2025-10-28 14:26:14.726 +03:00 [INF] Application is shutting down...
+2025-10-28 14:31:12.813 +03:00 [INF] Now listening on: https://localhost:7075
+2025-10-28 14:31:12.847 +03:00 [INF] Now listening on: http://localhost:5178
+2025-10-28 14:31:12.934 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-28 14:31:12.945 +03:00 [INF] Hosting environment: Development
+2025-10-28 14:31:12.946 +03:00 [INF] Content root path: D:\тестовые\энерго\BlogApp\BlogApp
+2025-10-28 14:32:59.486 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5178/api/posts?userId=3 - application/json 174
+2025-10-28 14:32:59.519 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5178/api/posts?userId=3 - 307 0 null 34.1039ms
+2025-10-28 14:32:59.555 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7075/api/posts?userId=3 - application/json 174
+2025-10-28 14:32:59.563 +03:00 [INF] Executing endpoint 'BlogApp.Controllers.PostsController.CreatePost (BlogApp)'
+2025-10-28 14:32:59.584 +03:00 [INF] Route matched with {action = "CreatePost", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(Int64, BlogApp.DTOs.CreatePostDto) on controller BlogApp.Controllers.PostsController (BlogApp).
+2025-10-28 14:32:59.621 +03:00 [INF] [PostsController] POST /api/posts - User ID: 3
+2025-10-28 14:32:59.624 +03:00 [INF] [PostService] Creating post for user ID: 3
+2025-10-28 14:32:59.850 +03:00 [INF] [PostService] Post created successfully. ID: 4, User ID: 3
+2025-10-28 14:32:59.852 +03:00 [INF] [PostsController] Post created successfully - ID: 4
+2025-10-28 14:32:59.861 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'BlogApp.DTOs.ApiResponse`1[[BlogApp.DTOs.PostDto, BlogApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-28 14:32:59.891 +03:00 [INF] Executed action BlogApp.Controllers.PostsController.CreatePost (BlogApp) in 301.4908ms
+2025-10-28 14:32:59.894 +03:00 [INF] Executed endpoint 'BlogApp.Controllers.PostsController.CreatePost (BlogApp)'
+2025-10-28 14:32:59.897 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7075/api/posts?userId=3 - 201 null application/json; charset=utf-8 341.7773ms
+2025-10-28 14:33:32.578 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/posts - null null
+2025-10-28 14:33:32.584 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/posts - 307 0 null 6.042ms
+2025-10-28 14:33:32.588 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7075/api/posts - null null
+2025-10-28 14:33:32.593 +03:00 [INF] Executing endpoint 'BlogApp.Controllers.PostsController.GetAllPosts (BlogApp)'
+2025-10-28 14:33:32.598 +03:00 [INF] Route matched with {action = "GetAllPosts", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPosts() on controller BlogApp.Controllers.PostsController (BlogApp).
+2025-10-28 14:33:32.602 +03:00 [INF] [PostsController] GET /api/posts
+2025-10-28 14:33:32.604 +03:00 [INF] [PostService] Fetching all posts
+2025-10-28 14:33:32.617 +03:00 [INF] [PostService] Retrieved 4 posts successfully
+2025-10-28 14:33:32.619 +03:00 [INF] Executing OkObjectResult, writing value of type 'BlogApp.DTOs.ApiResponse`1[[System.Collections.Generic.List`1[[BlogApp.DTOs.PostDto, BlogApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-28 14:33:32.623 +03:00 [INF] Executed action BlogApp.Controllers.PostsController.GetAllPosts (BlogApp) in 22.8776ms
+2025-10-28 14:33:32.626 +03:00 [INF] Executed endpoint 'BlogApp.Controllers.PostsController.GetAllPosts (BlogApp)'
+2025-10-28 14:33:32.627 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7075/api/posts - 200 null application/json; charset=utf-8 39.0465ms
+2025-10-28 14:36:12.651 +03:00 [INF] Application is shutting down...
+2025-10-28 14:47:35.017 +03:00 [INF] Now listening on: https://localhost:7075
+2025-10-28 14:47:35.049 +03:00 [INF] Now listening on: http://localhost:5178
+2025-10-28 14:47:35.128 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-28 14:47:35.130 +03:00 [INF] Hosting environment: Development
+2025-10-28 14:47:35.132 +03:00 [INF] Content root path: D:\тестовые\энерго\BlogApp\BlogApp
+2025-10-28 14:47:43.834 +03:00 [INF] Now listening on: https://localhost:7075
+2025-10-28 14:47:43.869 +03:00 [INF] Now listening on: http://localhost:5178
+2025-10-28 14:47:43.952 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-28 14:47:43.954 +03:00 [INF] Hosting environment: Development
+2025-10-28 14:47:43.956 +03:00 [INF] Content root path: D:\тестовые\энерго\BlogApp\BlogApp
+2025-10-28 14:47:45.872 +03:00 [INF] Application is shutting down...
